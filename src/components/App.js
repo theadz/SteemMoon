@@ -8,7 +8,8 @@ import './App.css';
 const popoverRight = (
   <Popover id="popover-positioned-right" title="@ninjavideo">
     <strong>Steem Bear : </strong>
-    check this <a href="https://steemit.com/cryptoart/@ninjavideo/sndbox-crypto-art-bubby-the-big-blue-steem-bear" target="_blank">post</a>.
+    check this <a href="https://steemit.com/cryptoart/@ninjavideo/sndbox-crypto-art-bubby-the-big-blue-steem-bear"
+    target="_blank" rel="noopener noreferrer">post</a>.
   </Popover>
 );
 
