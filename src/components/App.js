@@ -6,8 +6,9 @@ import bear from '../images/Bear.gif';
 import './App.css';
 
 const popoverRight = (
-  <Popover id="popover-positioned-right" title="Popover right">
-    <strong>Holy guacamole!</strong> Check this info.
+  <Popover id="popover-positioned-right" title="@ninjavideo">
+    <strong>Steem Bear : </strong>
+    check this <a href="https://steemit.com/cryptoart/@ninjavideo/sndbox-crypto-art-bubby-the-big-blue-steem-bear" target="_blank">post</a>.
   </Popover>
 );
 
