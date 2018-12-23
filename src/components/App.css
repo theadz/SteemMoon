@@ -1,3 +1,5 @@
+/* Create React App CSS code */
+
 .App {
   text-align: center;
 }
@@ -31,19 +33,15 @@
   }
 }
 
+/* Background moon scape */
+
 .Steem-Moon-Title {
   position: absolute;
   top: 30px;
   left: 120px;
 }
 
-.Bear-contribution {
-  position: absolute;
-  top: 900px;
-  left: 1120px;
-  cursor: pointer;
-}
-
+/* Introduction details in the Jumbotron (big grey box in the top right)*/
 
 .jumbotron {
   width: 300px;
@@ -59,6 +57,8 @@
   box-sizing: border-box;
   text-align: center;
 }
+
+/* Button in the Jumbotron */
 
 .btn-primary {
     color: #fff;
@@ -86,6 +86,9 @@
     text-decoration-color: initial;
 }
 
+/* Style for the pop ups.  These appear when a user clicks on a pxiel
+art contribution  */
+
   #popover-positioned-right {
     opacity: 10;
     background-color: #e9ecef;
@@ -102,4 +105,15 @@
   .popover-content {
     padding: 2px;
     padding-top: 1px;
+  }
+
+
+  /* Pixel Art contributions */
+
+  /* Contribution Number 1 by @ninjavideo */
+  .SteemMoonSign-contribution {
+    position: absolute;
+    top: 910px;
+    left: 1120px;
+    cursor: pointer;
   }
