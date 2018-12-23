@@ -10,3 +10,5 @@ This app is built using [Create React App](https://github.com/facebook/create-re
 There's still a long way to go coding-wise, so please feel free to contribute.
 
 All pixel art contributions will need to have a Steem Blockchain post with some progress images to verify that the artwork is indeed an original piece made for SteemMoon.  Once accepted, they'll be added onto the website.
+
+Here's an [Introductory Post](https://steemit.com/crimsaystakeaction/@ninjavideo/welcome-to-steemmoon) that provides Pixel Art guidelines for contributions to SteemMoon.
