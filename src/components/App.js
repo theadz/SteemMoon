@@ -13,7 +13,7 @@ import './App.css';
 const popoverRight = (
   <Popover id="popover-positioned-right" title="@ninjavideo">
     <strong>Steem Moon Sign : </strong>
-    check this <a href="https://steemit.com/cryptoart/@ninjavideo/sndbox-crypto-art-bubby-the-big-blue-steem-bear"
+    check this <a href="https://steemit.com/sndbox/@ninjavideo/cryptoart-with-sndbox-contest-3"
     target="_blank" rel="noopener noreferrer">post</a>.
   </Popover>
 );
@@ -34,7 +34,7 @@ class App extends Component {
         <Jumbotron>
            <h1>Steem to the Moon!</h1>
            <p>Steem Moon is a collaborative community effort to add fun pixel art to our moonscape.</p>
-           <p>Hover over each piece to see who created it.</p>
+           <p>Click on each piece to see who created it.</p>
            <p><Button bsStyle="primary" href="https://steemit.com/crimsaystakeaction/@ninjavideo/welcome-to-steemmoon">Instructional Post</Button></p>
         </Jumbotron>
 
