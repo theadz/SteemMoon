@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { Button, Jumbotron, Popover, OverlayTrigger } from 'react-bootstrap';
 import background from '../images/Moontile background.png';
-import heading from '../images/Steem Moon Title.png';
 import steemmoonsign from '../images/Steem Moon Sign.png';
 import steemmoontitle from '../images/Steem Moon Pixel Art Title.png';
-
+import storagefacility06 from '../images/Storage Facility 06.png';
 import './App.css';
 
 // Function to create the pop ups.
@@ -14,6 +13,14 @@ const popoverRight = (
   <Popover id="popover-positioned-right" title="@ninjavideo">
     <strong>Steem Moon Sign : </strong>
     check this <a href="https://steemit.com/sndbox/@ninjavideo/cryptoart-with-sndbox-contest-3"
+    target="_blank" rel="noopener noreferrer">post</a>.
+  </Popover>
+);
+
+const popoverRightsf06 = (
+  <Popover id="popover-positioned-right" title="@ninjavideo">
+    <strong>Storage Facility 06 : </strong>
+    check this <a href="https://steemit.com/steemmoon/@ninjavideo/steemmoon-entry-boring-storage-facility"
     target="_blank" rel="noopener noreferrer">post</a>.
   </Popover>
 );
@@ -40,6 +47,9 @@ class App extends Component {
 
         <OverlayTrigger trigger="click" placement="right" overlay={popoverRight}>
            <img src={steemmoonsign} className="SteemMoonSign-contribution" alt="SteemMoonSign-contribution"/>
+        </OverlayTrigger>
+        <OverlayTrigger trigger="click" placement="right" overlay={popoverRightsf06}>
+           <img src={storagefacility06} className="StorageFacility06-contribution" alt="StorageFacility06-contribution"/>
         </OverlayTrigger>
       </div>
     );

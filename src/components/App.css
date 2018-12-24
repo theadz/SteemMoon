@@ -117,3 +117,11 @@ art contribution  */
     left: 1120px;
     cursor: pointer;
   }
+
+  /* Contribution Number 2 by @ninjavideo */
+  .StorageFacility06-contribution {
+    position: absolute;
+    top: 530px;
+    left: 300px;
+    cursor: pointer;
+  }
