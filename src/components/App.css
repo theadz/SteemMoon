@@ -125,3 +125,11 @@ art contribution  */
     left: 300px;
     cursor: pointer;
   }
+
+  /* Contribution Number 3 by @ninjavideo */
+  .BitcoinImprint-contribution {
+    position: absolute;
+    top: 630px;
+    left: 1300px;
+    cursor: pointer;
+  }

@@ -4,6 +4,7 @@ import background from '../images/Moontile background.png';
 import steemmoonsign from '../images/Steem Moon Sign.png';
 import steemmoontitle from '../images/Steem Moon Pixel Art Title.png';
 import storagefacility06 from '../images/Storage Facility 06.png';
+import bitcoinimprint from '../images/Bitcoin Moon Imprint.png';
 import './App.css';
 
 // Function to create the pop ups.
@@ -20,6 +21,14 @@ const popoverRight = (
 const popoverRightsf06 = (
   <Popover id="popover-positioned-right" title="@ninjavideo">
     <strong>Storage Facility 06 : </strong>
+    check this <a href="https://steemit.com/steemmoon/@ninjavideo/steemmoon-entry-boring-storage-facility"
+    target="_blank" rel="noopener noreferrer">post</a>.
+  </Popover>
+);
+
+const popoverRightbi = (
+  <Popover id="popover-positioned-right" title="@ninjavideo">
+    <strong>Bitcoin Imprint : </strong>
     check this <a href="https://steemit.com/steemmoon/@ninjavideo/steemmoon-entry-boring-storage-facility"
     target="_blank" rel="noopener noreferrer">post</a>.
   </Popover>
@@ -50,6 +59,9 @@ class App extends Component {
         </OverlayTrigger>
         <OverlayTrigger trigger="click" placement="right" overlay={popoverRightsf06}>
            <img src={storagefacility06} className="StorageFacility06-contribution" alt="StorageFacility06-contribution"/>
+        </OverlayTrigger>
+        <OverlayTrigger trigger="click" placement="right" overlay={popoverRightbi}>
+           <img src={bitcoinimprint} className="BitcoinImprint-contribution" alt="BitcoinImprint-contribution"/>
         </OverlayTrigger>
       </div>
     );
