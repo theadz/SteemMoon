@@ -26,10 +26,10 @@ const popoverRightsf06 = (
   </Popover>
 );
 
-const popoverRightbi = (
+const popoverTop = (
   <Popover id="popover-positioned-right" title="@ninjavideo">
     <strong>Bitcoin Imprint : </strong>
-    check this <a href="https://steemit.com/steemmoon/@ninjavideo/steemmoon-entry-boring-storage-facility"
+    check this <a href="https://steemit.com/steemmoon/@ninjavideo/steemmoon-entry-bitcoin-imprint-for-sndbox-cryptoart"
     target="_blank" rel="noopener noreferrer">post</a>.
   </Popover>
 );
@@ -60,7 +60,7 @@ class App extends Component {
         <OverlayTrigger trigger="click" placement="right" overlay={popoverRightsf06}>
            <img src={storagefacility06} className="StorageFacility06-contribution" alt="StorageFacility06-contribution"/>
         </OverlayTrigger>
-        <OverlayTrigger trigger="click" placement="right" overlay={popoverRightbi}>
+        <OverlayTrigger trigger="click" placement="top" overlay={popoverTop}>
            <img src={bitcoinimprint} className="BitcoinImprint-contribution" alt="BitcoinImprint-contribution"/>
         </OverlayTrigger>
       </div>
