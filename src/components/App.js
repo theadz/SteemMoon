@@ -26,7 +26,7 @@ const popoverRightsf06 = (
     target="_blank" rel="noopener noreferrer">post</a>.
   </Popover>
 );
-
+ 
 const popoverTop = (
   <Popover id="popover-positioned-right" title="@ninjavideo">
     <strong>Bitcoin Imprint : </strong>
@@ -35,7 +35,7 @@ const popoverTop = (
   </Popover>
 );
 
-const popoverRightsf06 = (
+const popoverRightSG = (
   <Popover id="popover-positioned-right" title="@ninjavideo">
     <strong>SndBox Gallery : </strong>
     check this <a href="https://steemit.com/steemmoon/@ninjavideo/steemmoon-entry-boring-storage-facility"
