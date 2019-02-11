@@ -38,7 +38,7 @@ const popoverTop = (
 const popoverRightSG = (
   <Popover id="popover-positioned-right" title="@ninjavideo">
     <strong>SndBox Gallery : </strong>
-    check this <a href="https://steemit.com/steemmoon/@ninjavideo/steemmoon-entry-boring-storage-facility"
+    check this <a href="https://steemit.com/steemmoon/@ninjavideo/steemmoon-entry-sndbox-hq"
     target="_blank" rel="noopener noreferrer">post</a>.
   </Popover>
 );
