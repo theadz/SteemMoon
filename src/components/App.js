@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Jumbotron, Popover, OverlayTrigger } from 'react-bootstrap';
-import background from '../images/Moontile background.png';
+import background from '../images/Moontile background-2855.png';
 import steemmoonsign from '../images/Steem Moon Sign.png';
 import steemmoontitle from '../images/Steem Moon Pixel Art Title.png';
 import storagefacility06 from '../images/Storage Facility 06.png';
@@ -26,7 +26,7 @@ const popoverRightsf06 = (
     target="_blank" rel="noopener noreferrer">post</a>.
   </Popover>
 );
- 
+
 const popoverTop = (
   <Popover id="popover-positioned-right" title="@ninjavideo">
     <strong>Bitcoin Imprint : </strong>
