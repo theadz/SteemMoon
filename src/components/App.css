@@ -133,3 +133,11 @@ art contribution  */
     left: 1650px;
     cursor: pointer;
   }
+
+  /* Contribution Number 4 by @ninjavideo */
+  .SndBoxGallery-contribution {
+    position: absolute;
+    top: 400px;
+    left: 1350px;
+    cursor: pointer;
+  }

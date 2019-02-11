@@ -5,6 +5,7 @@ import steemmoonsign from '../images/Steem Moon Sign.png';
 import steemmoontitle from '../images/Steem Moon Pixel Art Title.png';
 import storagefacility06 from '../images/Storage Facility 06.png';
 import bitcoinimprint from '../images/Bitcoin Moon Imprint.png';
+import sndboxgallery from '../images/SndBox Gallery.png';
 import './App.css';
 
 // Function to create the pop ups.
@@ -30,6 +31,14 @@ const popoverTop = (
   <Popover id="popover-positioned-right" title="@ninjavideo">
     <strong>Bitcoin Imprint : </strong>
     check this <a href="https://steemit.com/steemmoon/@ninjavideo/steemmoon-entry-bitcoin-imprint-for-sndbox-cryptoart"
+    target="_blank" rel="noopener noreferrer">post</a>.
+  </Popover>
+);
+
+const popoverRightsf06 = (
+  <Popover id="popover-positioned-right" title="@ninjavideo">
+    <strong>SndBox Gallery : </strong>
+    check this <a href="https://steemit.com/steemmoon/@ninjavideo/steemmoon-entry-boring-storage-facility"
     target="_blank" rel="noopener noreferrer">post</a>.
   </Popover>
 );
@@ -62,6 +71,9 @@ class App extends Component {
         </OverlayTrigger>
         <OverlayTrigger trigger="click" placement="top" overlay={popoverTop}>
            <img src={bitcoinimprint} className="BitcoinImprint-contribution" alt="BitcoinImprint-contribution"/>
+        </OverlayTrigger>
+        <OverlayTrigger trigger="click" placement="right" overlay={popoverRightSG}>
+           <img src={sndboxgallery} className="SndBoxGallery-contribution" alt="SndBoxGallery-contribution"/>
         </OverlayTrigger>
       </div>
     );
